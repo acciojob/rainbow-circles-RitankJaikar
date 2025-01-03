@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Position all circles in the center */
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%; /* Makes them circular */
+}
+
+/* Circle 1 (300px by 300px, Red) */
+.circle1 {
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;  /* Red */
+}
+
+/* Circle 2 (250px by 250px, Orange) */
+.circle2 {
+  width: 250px;
+  height: 250px;
+  background-color: #ffa500;  /* Orange */
+}
+
+/* Circle 3 (200px by 200px, Yellow) */
+.circle3 {
+  width: 200px;
+  height: 200px;
+  background-color: #ffff00;  /* Yellow */
+}
+
+/* Circle 4 (150px by 150px, Green) */
+.circle4 {
+  width: 150px;
+  height: 150px;
+  background-color: #008000;  /* Green */
+}
+
+/* Circle 5 (100px by 100px, Blue) */
+.circle5 {
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;  /* Blue */
+}
+
+/* Circle 6 (50px by 50px, Purple) */
+.circle6 {
+  width: 50px;
+  height: 50px;
+  background-color: #800080;  /* Purple */
+}
